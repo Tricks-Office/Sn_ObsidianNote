@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "{{title}}, {{authorString}}",
+  "literatureNoteFolder": "Zotero",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\npublisher : {{publisher}}\n---\n#서지\n[Go to Zotero]({{zoteroSelectURI}})\n",
+  "markdownCitationTemplate": "{{title}}, {{authorString}}[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "G:\\내 드라이브\\Obsidian\\GCloud\\Zotero\\Zotero_Lib.json"
+}

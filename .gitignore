@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Obsidian Local REST API plugin: contains API key + TLS private key
+.obsidian/plugins/obsidian-local-rest-api/data.json
+
+# mcp-obsidian: contains the same Obsidian API key
+mcp-obsidian/nano.env
+mcp-obsidian/.env

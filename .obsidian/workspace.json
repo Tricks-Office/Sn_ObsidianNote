@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "abf32426d9b3e7f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "802332f1f93c527d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef57565297abc68c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/Zettelkasten.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Zettelkasten"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "892cef8cb4224716",
+    "type": "split",
+    "children": [
+      {
+        "id": "67bebc70780992f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5c66141481feba2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "2eaca8d5d8042174",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#서지",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f4cb0791ce3c3b80",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5
+  },
+  "right": {
+    "id": "8d59b3c4b4ce27e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "42483fba8ddf769b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22982d23d94bd469",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. Temp/나는 해결사 이다.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 나는 해결사 이다"
+            }
+          },
+          {
+            "id": "9aeb2b9409f6f080",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. Temp/나는 해결사 이다.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 나는 해결사 이다"
+            }
+          },
+          {
+            "id": "b2a324a5db5d77ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "763eeae7a281783b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Template/Zettelkasten.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 207.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "ef57565297abc68c",
+  "lastOpenFiles": [
+    "5. GPTers/잔소리_노래/Ch1_1.md",
+    "CLAUDE.md",
+    "0. Temp/SOUL.md",
+    "0. Temp/도망과 뒷전.md",
+    "Template/Zettelkasten.md",
+    "2. 메모/공부/진짜 똑똑한 사람의 공부법.md",
+    "2. 메모/메모/Notion과 Obsidian 그리고 제텔카스텐.md",
+    "2. 메모/DX n AI/AI 시대 변화의 키워드.md",
+    "2. 메모/성공/나를 세우다.md",
+    "Zotero/AI 2024 트렌드&활용백과,  김덕진.md",
+    "2. 메모/메모/메모를 이용한 창의력 폭발의 핵심.md",
+    "0. Temp/무제.md",
+    "2. 메모/메모/압축과 연결.md",
+    "0. Temp/Make도 연결이 핵심.md",
+    "2. 메모/메모/핵심은 압축과 연결.md",
+    "2. 메모/메모/메모에서도 역할 분담.md",
+    "2. 메모/메모/독서 메모 치트키.md",
+    "2. 메모/경제경영/트렌드 2024 (Dragon Eyes).md",
+    "2. 메모/경제경영/커스터마이즈된 방법론과 메시지는 힘이 세다..md",
+    "1. Project/Next 출판/출판사 천그루숲.md",
+    "1. Project/Next 출판/작가와 (사이트).md",
+    "0. Temp/좋아하는 것 들을 연결하기.md",
+    "0. Temp/Untitled 3.md",
+    "0. Temp/Untitled 1.md",
+    "0. Temp/Untitled.md",
+    "0. Temp/도식화의 힘.md",
+    "5. GPTers/잔소리_노래",
+    "mcp-obsidian/nano.env",
+    "mcp-obsidian/uv.lock",
+    "mcp-obsidian/pyproject.toml",
+    "mcp-obsidian/openapi.yaml",
+    "mcp-obsidian/LICENSE",
+    "mcp-obsidian/src/mcp_obsidian/obsidian.py",
+    "mcp-obsidian/src/mcp_obsidian/tools.py",
+    "mcp-obsidian/src/mcp_obsidian/__init__.py",
+    "mcp-obsidian/src/mcp_obsidian/server.py"
+  ]
+}
