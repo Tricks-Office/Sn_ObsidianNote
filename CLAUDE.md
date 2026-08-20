@@ -26,34 +26,24 @@ Notes are also classified by lifecycle, not just topic:
 | `4. Archive/` | Notes retired from active use but kept for reference. |
 | `5. GPTers/` | Material tied to the GPTers community/course, including a multi-chapter sub-project (`잔소리_노래`). |
 | `6. 외부자료/` | External reference material not authored by the vault owner. |
-| `Template/` | Note templates. `Zettelkasten.md` is the standard template for new permanent notes. |
+| `7. MindMap/` | Mind map notes. Authored and viewed in Obsidian via a Mind Map editor community plugin, not folder-hierarchy Zettelkasten notes. |
+| `Template/` | Note templates. `Zettelkasten.md` and `Mindmap.md` are the standard templates for new notes — see Note format below. |
 | `Zotero/` | Zotero reference-manager data backing the `obsidian-citation-plugin`. Treat as generated/external data, not hand-edited content. |
 | `mcp-obsidian/` | A cloned third-party MCP server (Python, `uv`-managed) that exposes the Obsidian Local REST API as MCP tools (list/read/search/patch/append/delete files in the vault). Not authored here; only touch it if the user is working on the MCP integration itself. |
 
 ## Note format
 
-New permanent notes should follow `Template/Zettelkasten.md`:
+This vault has two note formats. Each one's exact structure and conventions live in its template file under `Template/` — follow that file directly rather than duplicating its structure here:
+- **제텔카스텐 (Zettelkasten)** — permanent notes under `2. 메모/`: `Template/Zettelkasten.md`
+- **Mindmap** — mind map notes under `7. MindMap/`, authored/viewed via the Obsidian Mind Map editor plugin: `Template/Mindmap.md`
 
-```markdown
-### 날짜 : YYYY-MM-DD HH:mm
+## Git workflow
 
-### Tag : #tag1 #tag2
----
-### 메모 :
-<one idea, written in the owner's own words>
+This vault is a git repository, and the owner may edit notes from other devices (e.g. the Obsidian app directly) between Claude Code sessions.
 
-### 출처(참고문헌, 영상, Web)
-- [[source note]] or a citation/link
-
-### 연결문서
-- [[related note]]
-```
-
-Conventions to preserve when creating or editing notes:
-- Tags use inline `#hashtag` syntax in the `Tag` line, not YAML frontmatter.
-- Cross-links use Obsidian `[[wikilink]]` syntax and point to the note's filename (no folder path).
-- `연결문서` (linked documents) is where the "connection" half of the method lives — always populate it with related existing notes rather than leaving it empty when a link is obvious.
-- Keep one note to one idea; don't merge multiple ideas into a single note.
+- **Always `git pull` before starting any note-editing work.** Do this at the start of a session before reading or modifying files under the vault's note folders, so edits are never based on a stale local copy and never silently overwrite changes made elsewhere.
+- If `pull` reports local changes that would be overwritten, stop and surface them to the user rather than discarding or force-pulling.
+- Do not `commit` or `push` unless the user explicitly asks — leave staging/committing decisions to them.
 
 ## Working in `mcp-obsidian/`
 
