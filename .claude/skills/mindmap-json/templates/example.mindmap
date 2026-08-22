@@ -1,0 +1,39 @@
+---
+type: mindmap
+---
+
+```json
+{
+  "root": {
+    "id": "root",
+    "text": "중심 주제",
+    "children": [
+      {
+        "id": "n1",
+        "text": "가지 1 (side 명시)",
+        "side": "right",
+        "parent": "root",
+        "children": [
+          { "id": "n1-1", "text": "가지 1-1", "parent": "n1", "children": [] },
+          { "id": "n1-2", "text": "가지 1-2", "parent": "n1", "children": [] }
+        ]
+      },
+      {
+        "id": "n2",
+        "text": "가지 2 (side 생략 - 자동배분)",
+        "parent": "root",
+        "children": []
+      },
+      {
+        "id": "n3",
+        "text": "가지 3 (side 생략 - 자동배분)",
+        "parent": "root",
+        "children": [
+          { "id": "n3-1", "text": "가지 3-1", "parent": "n3", "children": [] },
+          { "id": "n3-2", "text": "가지 3-2", "parent": "n3", "children": [] }
+        ]
+      }
+    ]
+  }
+}
+```

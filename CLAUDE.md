@@ -26,16 +26,18 @@ Notes are also classified by lifecycle, not just topic:
 | `4. Archive/` | Notes retired from active use but kept for reference. |
 | `5. GPTers/` | Material tied to the GPTers community/course, including a multi-chapter sub-project (`잔소리_노래`). |
 | `6. 외부자료/` | External reference material not authored by the vault owner. |
-| `7. MindMap/` | Mind map notes. Authored and viewed in Obsidian via a Mind Map editor community plugin, not folder-hierarchy Zettelkasten notes. |
+| `7. MindMap/` | Mind map notes, not folder-hierarchy Zettelkasten notes. Two formats/plugins coexist here, distinguished by extension: `.mindmap` (JSON tree, `obsimap` / "Simple Mindmap" plugin — see the `mindmap-json` skill for AI-driven editing) and `.md` (indented bullet outline, `mindmap-editor` / "Mind map editor" plugin, see `Template/Mindmap.md`). |
 | `Template/` | Note templates. `Zettelkasten.md` and `Mindmap.md` are the standard templates for new notes — see Note format below. |
 | `Zotero/` | Zotero reference-manager data backing the `obsidian-citation-plugin`. Treat as generated/external data, not hand-edited content. |
 | `mcp-obsidian/` | A cloned third-party MCP server (Python, `uv`-managed) that exposes the Obsidian Local REST API as MCP tools (list/read/search/patch/append/delete files in the vault). Not authored here; only touch it if the user is working on the MCP integration itself. |
+| `.claude/skills/` | Project-local Claude Code skills for this vault. `mindmap-json/` — creating/editing `.mindmap` JSON files (see Note format below and the skill's own `SKILL.md`). |
 
 ## Note format
 
-This vault has two note formats. Each one's exact structure and conventions live in its template file under `Template/` — follow that file directly rather than duplicating its structure here:
+This vault has three note formats. Each one's exact structure and conventions live in its template file (or skill) — follow that directly rather than duplicating its structure here:
 - **제텔카스텐 (Zettelkasten)** — permanent notes under `2. 메모/`: `Template/Zettelkasten.md`
-- **Mindmap** — mind map notes under `7. MindMap/`, authored/viewed via the Obsidian Mind Map editor plugin: `Template/Mindmap.md`
+- **Mindmap outline** — bullet-outline mind map notes under `7. MindMap/`, authored/viewed via the `mindmap-editor` ("Mind map editor") plugin: `Template/Mindmap.md`
+- **Mindmap JSON** — `.mindmap` files under `7. MindMap/`, authored/viewed via the `obsimap` ("Simple Mindmap") plugin. When creating or editing these, use the `mindmap-json` skill (`.claude/skills/mindmap-json/`) rather than hand-computing node coordinates — the plugin recalculates layout on every render, so stored x/y are irrelevant.
 
 ## Git workflow
 
