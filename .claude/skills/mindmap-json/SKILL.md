@@ -19,9 +19,15 @@ obsimap(`.obsidian/plugins/obsimap/main.js`)은 파일을 열거나 다시 그�
 
 ## 파일 형식
 
+frontmatter는 Zettelkasten 노트와 동일한 다섯 필드(`write date`/`edit date`/`tags`/`type`/`links`)를 쓴다. 다만 본문 프로즈 대신 JSON 코드블록이 노트 내용 전체를 담는다는 점만 다르다.
+
 ```
 ---
+write date: YYYY-MM-DD HH:mm
+edit date: YYYY-MM-DD HH:mm
+tags: []
 type: mindmap
+links: []
 ---
 
 [```]json
@@ -52,7 +58,7 @@ type: mindmap
 
 1. 저장 위치는 `7. MindMap/`. 파일명 = 노트 제목, 확장자는 `.mindmap`.
 2. 대화에서 주제와 하위 구조를 계층으로 정리한다. 구조가 애매하면 만들기 전에 사용자에게 원하는 큰 가지를 확인한다.
-3. `templates/example.mindmap`의 형식을 그대로 따라 JSON을 작성해 저장한다.
+3. `templates/example.mindmap`의 형식을 그대로 따라 JSON을 작성해 저장한다. frontmatter의 `write date`/`edit date`는 생성 시각으로 동일하게 채운다.
 4. 저장 후 실제 렌더링 확인은 Obsidian을 여는 사용자에게 맡긴다(Claude Code에서 직접 시각적 확인 불가).
 
 ## 기존 마인드맵 수정하기
@@ -61,6 +67,7 @@ type: mindmap
 2. 기존 노드의 `id`는 그대로 보존한다.
 3. 새로 추가하는 노드에만 새 id를 부여한다. 노드를 삭제할 때는 그 노드 + 하위 트리 전체를 함께 제거한다(부모의 `children` 배열에서도 빠져야 함).
 4. 배치를 일부러 바꾸려는 게 아니면 root 직계 자식의 기존 `side` 값을 그대로 유지한다.
+5. 노드 내용을 실제로 바꾸는 수정이라면 frontmatter의 `edit date`를 현재 시각으로 갱신한다(`write date`는 그대로 둔다).
 
 ## 저장 전 검증 체크리스트
 
@@ -68,7 +75,7 @@ type: mindmap
 - [ ] `root.id === "root"`
 - [ ] 모든 비-root 노드에 `children`(배열)과 `parent`가 있는가
 - [ ] 파일 전체에서 `id`가 중복되지 않는가
-- [ ] frontmatter에 `type: mindmap`이 있는가
+- [ ] frontmatter가 `write date`/`edit date`/`tags`/`type: mindmap`/`links` 다섯 필드를 갖췄는가
 - [ ] x/y/collapsed 필드를 넣지 않았는가
 
 ## 주의사항

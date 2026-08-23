@@ -1,5 +1,9 @@
 ---
+write date: YYYY-MM-DD HH:mm
+edit date: YYYY-MM-DD HH:mm
+tags: []
 type: mindmap
+links: []
 ---
 
 ```json

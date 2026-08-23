@@ -21,7 +21,7 @@ Notes are also classified by lifecycle, not just topic:
 |---|---|
 | `0. Temp/` | Inbox for fleeting/unsorted notes. Should be triaged quickly, not left to accumulate. |
 | `1. Project/` | Active project notes, one subfolder per project (e.g. `Next 출판` — a publishing project). |
-| `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`, `회사`). New permanent notes belong here, filed under the closest matching topic. |
+| `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`). New permanent notes belong here, filed under the closest matching topic. |
 | `3. 완성/` | Finished/polished output derived from permanent notes (currently empty). |
 | `4. Archive/` | Notes retired from active use but kept for reference. |
 | `5. GPTers/` | Material tied to the GPTers community/course, including a multi-chapter sub-project (`잔소리_노래`). |
@@ -43,21 +43,27 @@ This vault has three note formats. Each one's exact structure and conventions li
 
 ## Frontmatter rules
 
-Most `.md` notes in this vault start with YAML frontmatter using `tags`, `type`, and `links`, plus one or two date fields — copy the exact shape from the matching template rather than writing it from scratch:
+All three note formats — Zettelkasten, Mindmap outline, and Mindmap JSON (`.mindmap`) — share the same five-field frontmatter shape, in this order:
 
-- **Zettelkasten** (`Template/Zettelkasten.md`) uses separate `write date` and `edit date` fields:
-  - `write date` — when the note was first created. Never changes afterward.
-  - `edit date` — when the note's content was last substantively edited.
+```yaml
+---
+write date: YYYY-MM-DD HH:mm
+edit date: YYYY-MM-DD HH:mm
+tags: []
+type: <format-name>
+links: []
+---
+```
+
+- `write date` — when the note was first created. Never changes afterward.
+- `edit date` — when the note's content was last substantively edited.
   - On a brand-new note, set both to the same timestamp (creation time).
   - When editing an existing note's content (not just retroactive/bulk metadata fixes), update `edit date` to the current date/time while leaving `write date` untouched.
-- **Mindmap outline** (`Template/Mindmap.md`) uses a single `date` field (creation timestamp only).
 - `tags` — array, `[]` if none, otherwise `[tag1, tag2]` (no quotes, comma-separated, no `#` prefix).
 - `type` — identifies which note format/template the note follows (e.g. `zettelkasten`, `mindmap`). This is the field that ties a note back to its template — see Note format above.
-- `links` — array of `[[wikilink]]` connections to other notes, `[]` if none yet, otherwise one `"[[Note Name]]"` per line.
+- `links` — array of `[[wikilink]]` connections to other notes, `[]` if none yet, otherwise one `"[[Note Name]]"` per line. For `.mindmap` JSON notes, this tracks links to *other notes*, separate from the tree structure inside the JSON code block.
 
-**When adding a new template**, follow the date convention (single `date`, or `write date`/`edit date`) that fits the note type, keep `tags`/`type`/`links` as-is, and give it its own distinct `type:` value — existing notes and any tooling that filters/reads `type:` depend on this being consistent across the vault.
-
-**Exception**: `.mindmap` JSON files (the `obsimap` mind map format — see the `mindmap-json` skill) use a reduced frontmatter with only `type: mindmap` and no date/`tags`/`links`, since the note's content lives entirely in the JSON code block rather than as prose with connections to track.
+Copy the exact shape from the matching template (`Template/Zettelkasten.md`, `Template/Mindmap.md`, or the `mindmap-json` skill's `templates/example.mindmap`) rather than writing it from scratch. **When adding a new template**, keep this same five-field shape and give it its own distinct `type:` value — existing notes and any tooling that filters/reads `type:` depend on this being consistent across the vault.
 
 ## Git workflow
 

@@ -8,7 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d75a19308ad3e613",
+            "id": "1add5921c842d515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.MindMap/MindMap Test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MindMap Test"
+            }
+          },
+          {
+            "id": "30831d5077dd4ae6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,43 +221,42 @@
       "obsimap:Open mind map": false
     }
   },
-  "active": "d75a19308ad3e613",
+  "active": "1add5921c842d515",
   "lastOpenFiles": [
+    "1. Project/Next 출판/출판사 천그루숲.md",
+    "Untitled.mindmap",
+    "Untitled (Outline).md",
+    "7.MindMap/MindMap Test.md",
+    "Template/Simple Mindmap.mindmap",
+    "Template/Mindmap.md",
+    "CLAUDE.md.tmp.5992.d48661d706a3",
+    "2. 메모/회사/탐욕의 P-PJT.md",
+    "0. Temp/SOUL.md",
+    "0. Temp/Make도 연결이 핵심.md",
+    "0. Temp/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
     "0. Temp/Dataviewer Sample.md",
+    "0. Temp/지름신이 왔다 갔다.md",
+    "0. Temp/좋아하는 것 들을 연결하기.md",
+    "0. Temp/도망과 뒷전.md",
+    "4. Archive/상황의 변화, 집중의 변화.md",
+    "5. GPTers/나의 목표.md",
+    "6. 외부자료/생각을 쉽게 구조화하는 8단계 접근 방법.md",
+    "Untitled (Full Note).md",
     "2. 메모/메모/메모를 이용한 창의력 폭발의 핵심.md",
     "CLAUDE.md.tmp.27476.90fec10380bc",
     "CLAUDE.md.tmp.27476.17658d2b9cee",
     "2. 메모/메모/독서 메모 치트키.md",
-    "0. Temp/도망과 뒷전.md",
-    "Template/Mindmap.md",
-    "Template/Simple Mindmap.mindmap",
     "CLAUDE.md.tmp.27476.35c4e5adfa2b",
     "0. Temp/마인드맵 좌표초기화 테스트.mindmap",
     "CLAUDE.md.tmp.27476.eb43948dbafd",
     "중심 토픽 (Outline).md",
-    "0. Temp/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
-    "0. Temp/지름신이 왔다 갔다.md",
     "Central idea (Full Note).md",
     "Untitled (1).mindmap",
     "Central idea (Full Note) (1).md",
-    "7.MindMap/MindMap Test.md",
     "2. 메모/아이디어/창의력의 비밀 Mixing.md",
     "0. Temp/무제.md",
     "0. Temp/무제 1.md",
     "2. 메모/DX n AI/AI 시대 변화의 키워드.md",
-    "2. 메모/DX n AI/시대의 흐름 - 자동화, 지능화, 무한경쟁.md",
-    "2. 메모/DX n AI/일을 없애는 것의 가치.md",
-    "2. 메모/DX n AI/AI시대 가치있는 사람.md",
-    "0. Temp/좋아하는 것 들을 연결하기.md",
-    "Zotero/제텔카스텐,  숀케아렌스.md",
-    "2. 메모/공부/진짜 똑똑한 사람의 공부법.md",
-    "Template/Zettelkasten.md",
-    "CLAUDE.md",
-    "6. 외부자료/생각을 쉽게 구조화하는 8단계 접근 방법.md",
-    "7.MindMap",
-    "CLAUDE.md.tmp.27612.fcb29cd6686e",
-    "Template",
-    "5. GPTers/잔소리_노래/Ch3_1.md",
-    "5. GPTers/잔소리_노래/Ch2_5.md"
+    "7.MindMap"
   ]
 }
