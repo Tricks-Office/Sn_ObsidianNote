@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "2c1093ba72ef766a",
+    "id": "abf32426d9b3e7f3",
     "type": "split",
     "children": [
       {
-        "id": "61ad0964635fdb97",
+        "id": "a52c9abeac4fdb92",
         "type": "tabs",
         "children": [
           {
-            "id": "65fff653e1a8bd81",
+            "id": "7a1723e5614b7600",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. 메모/아이디어/창의력의 비밀 Mixing.md",
+                "file": "0. Temp/Untitled 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "창의력의 비밀 Mixing"
+              "title": "Untitled 3"
             }
           }
         ]
@@ -37,33 +37,35 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8b24d6d2ef9f64f6",
+    "id": "892cef8cb4224716",
     "type": "split",
     "children": [
       {
-        "id": "cd63799d7ad52b17",
+        "id": "67bebc70780992f1",
         "type": "tabs",
         "children": [
           {
-            "id": "0a9203e47bcac596",
+            "id": "d5c66141481feba2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
             }
           },
           {
-            "id": "380d4590000de811",
+            "id": "2eaca8d5d8042174",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#서지",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,40 +73,40 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
-            "id": "97a0435a4307d756",
+            "id": "f4cb0791ce3c3b80",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "북마크"
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 218.51103591918945
+    "width": 235.11328125
   },
   "right": {
-    "id": "53484b981ecb8cae",
+    "id": "8d59b3c4b4ce27e2",
     "type": "split",
     "children": [
       {
-        "id": "156cd9c3f19b2763",
+        "id": "42483fba8ddf769b",
         "type": "tabs",
         "children": [
           {
-            "id": "110797e9d4bb5e8e",
+            "id": "22982d23d94bd469",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Temp/무제 1.md",
+                "file": "0. Temp/나는 해결사 이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,72 +116,57 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "무제 1 의 백링크"
+              "title": "Backlinks for 나는 해결사 이다"
             }
           },
           {
-            "id": "bc0cabfb7746b29a",
+            "id": "9aeb2b9409f6f080",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Temp/무제 1.md",
+                "file": "0. Temp/나는 해결사 이다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "무제 1 의 나가는 링크"
+              "title": "Outgoing links from 나는 해결사 이다"
             }
           },
           {
-            "id": "aaa84fa3c3f70091",
+            "id": "b2a324a5db5d77ad",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "태그"
+              "title": "Tags"
             }
           },
           {
-            "id": "784379e59da63d2d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
-            "id": "414b9ec5369a768b",
+            "id": "763eeae7a281783b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Temp/무제 1.md",
+                "file": "0. Temp/Untitled 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 1 의 개요"
+              "title": "개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 207.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,46 +178,47 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
+      "obsimap:Open mind map": false,
       "mindmap-editor:Open mind map": false
     }
   },
-  "active": "65fff653e1a8bd81",
+  "active": "7a1723e5614b7600",
   "lastOpenFiles": [
-    "2. 메모/DX n AI/AI 시대 변화의 키워드.md",
-    "2. 메모/DX n AI/시대의 흐름 - 자동화, 지능화, 무한경쟁.md",
-    "2. 메모/DX n AI/일을 없애는 것의 가치.md",
-    "2. 메모/DX n AI/AI시대 가치있는 사람.md",
-    "0. Temp/좋아하는 것 들을 연결하기.md",
-    "Zotero/제텔카스텐,  숀케아렌스.md",
+    "2. 메모/메모/압축과 연결.md",
     "2. 메모/메모/메모를 이용한 창의력 폭발의 핵심.md",
-    "2. 메모/공부/진짜 똑똑한 사람의 공부법.md",
+    "0. Temp/Untitled 3.md",
+    "2. 메모/메모/독서 메모 치트키.md",
     "Template/Zettelkasten.md",
-    "Template/Mindmap.md",
-    "7.MindMap/MindMap Test.md",
-    "0. Temp/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
-    "0. Temp/무제.md",
     "CLAUDE.md",
-    "6. 외부자료/생각을 쉽게 구조화하는 8단계 접근 방법.md",
+    "Template/Mindmap.md",
+    "Template/Simple Mindmap.mindmap",
+    "7.MindMap/MindMap Test.md",
+    "Untitled.mindmap",
+    "2. 메모/성공/먼지같은 성공.md",
     "7.MindMap",
-    "CLAUDE.md.tmp.27612.fcb29cd6686e",
-    "Template",
-    "6. 외부자료",
-    "5. GPTers/잔소리_노래/Ch3_1.md",
-    "5. GPTers/잔소리_노래/Ch2_5.md",
-    "5. GPTers/잔소리_노래/Ch2_4.md",
-    "5. GPTers/잔소리_노래/Ch2_3.md",
-    "5. GPTers/잔소리_노래/Ch2_2.md",
-    "5. GPTers/잔소리_노래/Ch2_1.md",
-    "5. GPTers/잔소리_노래/Ch2_0.md",
-    "5. GPTers/잔소리_노래/Ch1_5.md",
-    "5. GPTers/잔소리_노래/Ch1_4.md",
-    "5. GPTers/잔소리_노래/Ch1_3.md",
-    "5. GPTers/잔소리_노래/Ch1_2.md",
+    "5. GPTers/잔소리_노래/Ch1_1.md",
+    "0. Temp/SOUL.md",
+    "0. Temp/도망과 뒷전.md",
+    "2. 메모/공부/진짜 똑똑한 사람의 공부법.md",
+    "2. 메모/메모/Notion과 Obsidian 그리고 제텔카스텐.md",
+    "2. 메모/DX n AI/AI 시대 변화의 키워드.md",
+    "2. 메모/성공/나를 세우다.md",
+    "Zotero/AI 2024 트렌드&활용백과,  김덕진.md",
+    "0. Temp/무제.md",
+    "0. Temp/Make도 연결이 핵심.md",
+    "2. 메모/메모/핵심은 압축과 연결.md",
+    "2. 메모/메모/메모에서도 역할 분담.md",
+    "2. 메모/경제경영/트렌드 2024 (Dragon Eyes).md",
+    "2. 메모/경제경영/커스터마이즈된 방법론과 메시지는 힘이 세다..md",
+    "1. Project/Next 출판/출판사 천그루숲.md",
+    "1. Project/Next 출판/작가와 (사이트).md",
+    "0. Temp/좋아하는 것 들을 연결하기.md",
     "5. GPTers/잔소리_노래",
-    "5. GPTers",
-    "4. Archive",
-    "mcp-obsidian/src/mcp_obsidian/tools.py",
-    "mcp-obsidian/src/mcp_obsidian/obsidian.py",
-    "mcp-obsidian/src/mcp_obsidian/server.py"
+    "mcp-obsidian/nano.env",
+    "mcp-obsidian/uv.lock",
+    "mcp-obsidian/pyproject.toml",
+    "mcp-obsidian/openapi.yaml",
+    "mcp-obsidian/LICENSE",
+    "mcp-obsidian/src/mcp_obsidian/obsidian.py"
   ]
 }

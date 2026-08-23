@@ -1,5 +1,6 @@
 ---
-date: 2023-12-17 15:38
+write date: 2023-12-17 15:38
+edit date: 2023-12-17 15:38
 tags: [채널, 재미]
 type: zettelkasten
 links:

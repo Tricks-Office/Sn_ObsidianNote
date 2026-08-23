@@ -1,5 +1,6 @@
 ---
-date: 2025-05-31 23:50
+write date: 2025-05-31 23:50
+edit date: 2025-05-31 23:50
 tags: [AI, DX]
 type: zettelkasten
 links:

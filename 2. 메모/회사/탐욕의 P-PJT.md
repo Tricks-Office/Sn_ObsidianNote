@@ -1,5 +1,6 @@
 ---
-date: 2025-05-29 22:07
+write date: 2025-05-29 22:07
+edit date: 2025-05-29 22:07
 tags: [경영, 마케팅]
 type: zettelkasten
 links:

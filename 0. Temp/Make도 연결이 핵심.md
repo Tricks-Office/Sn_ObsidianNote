@@ -1,5 +1,6 @@
 ---
-date: 2025-06-01 23:37
+write date: 2025-06-01 23:37
+edit date: 2025-06-01 23:37
 tags: []
 type: zettelkasten
 links:

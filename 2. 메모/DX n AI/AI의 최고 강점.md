@@ -1,5 +1,6 @@
 ---
-date: 2023-11-15 07:01
+write date: 2023-11-15 07:01
+edit date: 2023-11-15 07:01
 tags: [DX]
 type: zettelkasten
 links: []

@@ -1,5 +1,6 @@
 ---
-date: 2023-11-19 20:24
+write date: 2023-11-19 20:24
+edit date: 2023-11-19 20:24
 tags: [DX, 핵심]
 type: zettelkasten
 links:

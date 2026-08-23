@@ -1,8 +1,9 @@
 ---
-date: {{date:YYYY-MM-DD}} {{time}}
+write date: {{date:YYYY-MM-DD}} {{time}}
+edit date: {{date:YYYY-MM-DD}} {{time}}
 tags: []
 type: zettelkasten
-links: []
+links: [] 
 ---
 ### 메모 :
 

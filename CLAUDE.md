@@ -39,6 +39,12 @@ This vault has three note formats. Each one's exact structure and conventions li
 - **Mindmap outline** — bullet-outline mind map notes under `7. MindMap/`, authored/viewed via the `mindmap-editor` ("Mind map editor") plugin: `Template/Mindmap.md`
 - **Mindmap JSON** — `.mindmap` files under `7. MindMap/`, authored/viewed via the `obsimap` ("Simple Mindmap") plugin. When creating or editing these, use the `mindmap-json` skill (`.claude/skills/mindmap-json/`) rather than hand-computing node coordinates — the plugin recalculates layout on every render, so stored x/y are irrelevant.
 
+Zettelkasten frontmatter has separate `write date` and `edit date` fields:
+- `write date` — when the note was first created. Never changes afterward.
+- `edit date` — when the note's content was last substantively edited.
+- On a brand-new note, set both to the same timestamp (creation time).
+- When editing an existing note's content (not just retroactive/bulk metadata fixes), update `edit date` to the current date/time while leaving `write date` untouched.
+
 ## Git workflow
 
 This vault is a git repository, and the owner may edit notes from other devices (e.g. the Obsidian app directly) between Claude Code sessions.

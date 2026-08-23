@@ -1,5 +1,6 @@
 ---
-date: 2025-06-02 19:49
+write date: 2025-06-02 19:49
+edit date: 2025-06-02 19:49
 tags: [경영, 재미]
 type: zettelkasten
 links:
