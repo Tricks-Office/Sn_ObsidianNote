@@ -1,5 +1,6 @@
 ---
-date: 2023-11-19 20:13
+write date: 2023-11-19 20:13
+edit date: 2023-11-19 20:13
 tags: [문화]
 type: zettelkasten
 links:

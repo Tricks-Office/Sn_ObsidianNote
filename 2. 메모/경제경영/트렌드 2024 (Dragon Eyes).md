@@ -1,5 +1,6 @@
 ---
-date: 2023-11-10 20:32
+write date: 2023-11-10 20:32
+edit date: 2023-11-10 20:32
 tags: [경영]
 type: zettelkasten
 links: []

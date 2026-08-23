@@ -1,5 +1,6 @@
 ---
-date: 2025-05-21 22:57
+write date: 2025-05-21 22:57
+edit date: 2025-05-21 22:57
 tags: [AI, 생각법, 자기계발]
 type: zettelkasten
 links:

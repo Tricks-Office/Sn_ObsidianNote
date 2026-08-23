@@ -1,5 +1,6 @@
 ---
-date: 2023-12-17 15:42
+write date: 2023-12-17 15:42
+edit date: 2023-12-17 15:42
 tags: [마케팅, 생각법, 연결]
 type: zettelkasten
 links:

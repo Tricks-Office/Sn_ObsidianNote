@@ -1,5 +1,6 @@
 ---
-date: 2023-11-25 15:14
+write date: 2023-11-25 15:14
+edit date: 2023-11-25 15:14
 tags: [생각법, 연결]
 type: zettelkasten
 links:

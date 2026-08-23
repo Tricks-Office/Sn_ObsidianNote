@@ -43,25 +43,21 @@ This vault has three note formats. Each one's exact structure and conventions li
 
 ## Frontmatter rules
 
-Every `.md` note in this vault — regardless of format/template — starts with YAML frontmatter using these four fields, in this order:
+Most `.md` notes in this vault start with YAML frontmatter using `tags`, `type`, and `links`, plus one or two date fields — copy the exact shape from the matching template rather than writing it from scratch:
 
-```yaml
----
-date: YYYY-MM-DD HH:mm
-tags: []
-type: <format-name>
-links: []
----
-```
-
-- `date` — creation timestamp. In templates this is the Templater placeholder `{{date:YYYY-MM-DD}} {{time}}`; in an actual note it's the resolved value (e.g. `2023-12-17 15:42`).
+- **Zettelkasten** (`Template/Zettelkasten.md`) uses separate `write date` and `edit date` fields:
+  - `write date` — when the note was first created. Never changes afterward.
+  - `edit date` — when the note's content was last substantively edited.
+  - On a brand-new note, set both to the same timestamp (creation time).
+  - When editing an existing note's content (not just retroactive/bulk metadata fixes), update `edit date` to the current date/time while leaving `write date` untouched.
+- **Mindmap outline** (`Template/Mindmap.md`) uses a single `date` field (creation timestamp only).
 - `tags` — array, `[]` if none, otherwise `[tag1, tag2]` (no quotes, comma-separated, no `#` prefix).
 - `type` — identifies which note format/template the note follows (e.g. `zettelkasten`, `mindmap`). This is the field that ties a note back to its template — see Note format above.
 - `links` — array of `[[wikilink]]` connections to other notes, `[]` if none yet, otherwise one `"[[Note Name]]"` per line.
 
-**When adding a new template**, keep this exact four-field shape (same fields, same order) and give it its own distinct `type:` value — don't drop, reorder, or rename fields, since existing notes and any tooling that filters/reads `type:` depend on this being consistent across the vault.
+**When adding a new template**, follow the date convention (single `date`, or `write date`/`edit date`) that fits the note type, keep `tags`/`type`/`links` as-is, and give it its own distinct `type:` value — existing notes and any tooling that filters/reads `type:` depend on this being consistent across the vault.
 
-**Exception**: `.mindmap` JSON files (the `obsimap` mind map format — see the `mindmap-json` skill) use a reduced frontmatter with only `type: mindmap` and no `date`/`tags`/`links`, since the note's content lives entirely in the JSON code block rather than as prose with connections to track.
+**Exception**: `.mindmap` JSON files (the `obsimap` mind map format — see the `mindmap-json` skill) use a reduced frontmatter with only `type: mindmap` and no date/`tags`/`links`, since the note's content lives entirely in the JSON code block rather than as prose with connections to track.
 
 ## Git workflow
 

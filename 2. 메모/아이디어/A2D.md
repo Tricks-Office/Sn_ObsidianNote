@@ -1,5 +1,6 @@
 ---
-date: 2023-11-14 06:20
+write date: 2023-11-14 06:20
+edit date: 2023-11-14 06:20
 tags: []
 type: zettelkasten
 links: []

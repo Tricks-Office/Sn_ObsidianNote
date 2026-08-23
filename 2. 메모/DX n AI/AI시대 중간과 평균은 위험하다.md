@@ -1,5 +1,6 @@
 ---
-date: 2024-02-18 12:20
+write date: 2024-02-18 12:20
+edit date: 2024-02-18 12:20
 tags: [생각법, 경영, 자기계발]
 type: zettelkasten
 links:
