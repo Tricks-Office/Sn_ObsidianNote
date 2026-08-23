@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.MindMap/MindMap Test.md",
+                "file": "1. Project/Next 출판/작가와 (사이트).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MindMap Test"
+              "title": "작가와 (사이트)"
             }
           },
           {
-            "id": "30831d5077dd4ae6",
+            "id": "a99f85413ac19ee5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.MindMap/MindMap Test.md",
+                "file": "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,8 +52,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MindMap Test"
+              "title": "독자생존(獨自生存or讀者生存)"
+            },
+            "group": "16c23ec188fea3c5"
+          },
+          {
+            "id": "382839791fe10374",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Project/Next 출판/독자생존_질문2AI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "독자생존_질문2AI"
             }
+          },
+          {
+            "id": "86bec49b4e57ccaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Temp/독자생존_AI답변.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "독자생존_AI답변"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "31e37048ed802ae2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5403bef9d36c7bd4",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap-editor",
+              "state": {
+                "file": "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
+                "hideCompleted": false,
+                "showBodyText": true
+              },
+              "icon": "git-fork",
+              "title": "Mind map: 독자생존(獨自生存or讀者生存)"
+            },
+            "group": "16c23ec188fea3c5"
           }
         ]
       }
@@ -221,23 +292,27 @@
       "obsimap:Open mind map": false
     }
   },
-  "active": "1add5921c842d515",
+  "active": "86bec49b4e57ccaa",
   "lastOpenFiles": [
+    "1. Project/Next 출판/독자생존_질문2AI.md",
+    "0. Temp/독자생존_AI답변.md",
+    "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
+    "1. Project/Next 출판/작가와 (사이트).md",
     "1. Project/Next 출판/출판사 천그루숲.md",
+    "7.MindMap/MindMap Test.md",
+    "0. Temp/Dataviewer Sample.md",
+    "2. 메모/재미/지름신이 왔다 갔다.md",
+    "0. Temp/SOUL.md",
+    "2. 메모/메모/좋아하는 것 들을 연결하기.md",
+    "2. 메모/인간관계/도망과 뒷전.md",
     "Untitled.mindmap",
     "Untitled (Outline).md",
-    "7.MindMap/MindMap Test.md",
     "Template/Simple Mindmap.mindmap",
     "Template/Mindmap.md",
     "CLAUDE.md.tmp.5992.d48661d706a3",
     "2. 메모/회사/탐욕의 P-PJT.md",
-    "0. Temp/SOUL.md",
-    "0. Temp/Make도 연결이 핵심.md",
-    "0. Temp/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
-    "0. Temp/Dataviewer Sample.md",
-    "0. Temp/지름신이 왔다 갔다.md",
-    "0. Temp/좋아하는 것 들을 연결하기.md",
-    "0. Temp/도망과 뒷전.md",
+    "2. 메모/DX n AI/Make도 연결이 핵심.md",
+    "2. 메모/재미/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
     "4. Archive/상황의 변화, 집중의 변화.md",
     "5. GPTers/나의 목표.md",
     "6. 외부자료/생각을 쉽게 구조화하는 8단계 접근 방법.md",
@@ -254,9 +329,6 @@
     "Untitled (1).mindmap",
     "Central idea (Full Note) (1).md",
     "2. 메모/아이디어/창의력의 비밀 Mixing.md",
-    "0. Temp/무제.md",
-    "0. Temp/무제 1.md",
-    "2. 메모/DX n AI/AI 시대 변화의 키워드.md",
     "7.MindMap"
   ]
 }
