@@ -1,0 +1,23 @@
+{
+  "exportFolder": "",
+  "theme": "default",
+  "hotkeys": {
+    "addChild": "Tab",
+    "addSibling": "Enter",
+    "delete": "Delete",
+    "rename": "Shift+Enter",
+    "reorderUp": "Shift+ArrowUp",
+    "reorderDown": "Shift+ArrowDown",
+    "promote": "Shift+ArrowLeft",
+    "demote": "Shift+ArrowRight",
+    "searchNote": "Shift+Ctrl+Enter",
+    "createNote": "Ctrl+Shift+N",
+    "openNote": "Ctrl+Shift+L",
+    "toggleCollapse": "Ctrl+/"
+  },
+  "stripMetadata": true,
+  "showHoverPreview": true,
+  "maxNodeLength": 20,
+  "nodeStyle": "pill",
+  "layoutMode": "radial"
+}

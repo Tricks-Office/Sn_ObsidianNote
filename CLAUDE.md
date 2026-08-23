@@ -34,10 +34,34 @@ Notes are also classified by lifecycle, not just topic:
 
 ## Note format
 
+**Always start a new note from the matching template under `Template/`** (or, for `.mindmap` JSON files, the `mindmap-json` skill's own template) rather than writing frontmatter/structure from scratch. Copy the template's frontmatter and structure as-is, then fill it in — this is what keeps `type:` values and frontmatter shape (see Frontmatter rules below) consistent across the vault as new notes are added.
+
 This vault has three note formats. Each one's exact structure and conventions live in its template file (or skill) — follow that directly rather than duplicating its structure here:
 - **제텔카스텐 (Zettelkasten)** — permanent notes under `2. 메모/`: `Template/Zettelkasten.md`
 - **Mindmap outline** — bullet-outline mind map notes under `7. MindMap/`, authored/viewed via the `mindmap-editor` ("Mind map editor") plugin: `Template/Mindmap.md`
 - **Mindmap JSON** — `.mindmap` files under `7. MindMap/`, authored/viewed via the `obsimap` ("Simple Mindmap") plugin. When creating or editing these, use the `mindmap-json` skill (`.claude/skills/mindmap-json/`) rather than hand-computing node coordinates — the plugin recalculates layout on every render, so stored x/y are irrelevant.
+
+## Frontmatter rules
+
+Every `.md` note in this vault — regardless of format/template — starts with YAML frontmatter using these four fields, in this order:
+
+```yaml
+---
+date: YYYY-MM-DD HH:mm
+tags: []
+type: <format-name>
+links: []
+---
+```
+
+- `date` — creation timestamp. In templates this is the Templater placeholder `{{date:YYYY-MM-DD}} {{time}}`; in an actual note it's the resolved value (e.g. `2023-12-17 15:42`).
+- `tags` — array, `[]` if none, otherwise `[tag1, tag2]` (no quotes, comma-separated, no `#` prefix).
+- `type` — identifies which note format/template the note follows (e.g. `zettelkasten`, `mindmap`). This is the field that ties a note back to its template — see Note format above.
+- `links` — array of `[[wikilink]]` connections to other notes, `[]` if none yet, otherwise one `"[[Note Name]]"` per line.
+
+**When adding a new template**, keep this exact four-field shape (same fields, same order) and give it its own distinct `type:` value — don't drop, reorder, or rename fields, since existing notes and any tooling that filters/reads `type:` depend on this being consistent across the vault.
+
+**Exception**: `.mindmap` JSON files (the `obsimap` mind map format — see the `mindmap-json` skill) use a reduced frontmatter with only `type: mindmap` and no `date`/`tags`/`links`, since the note's content lives entirely in the JSON code block rather than as prose with connections to track.
 
 ## Git workflow
 

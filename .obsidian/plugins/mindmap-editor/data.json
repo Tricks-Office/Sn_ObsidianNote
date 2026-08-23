@@ -2,6 +2,6 @@
   "palette": "",
   "hideCompleted": false,
   "syncFolds": true,
-  "showBodyText": false,
+  "showBodyText": true,
   "splitDirection": "vertical"
 }

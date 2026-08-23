@@ -15,5 +15,23 @@
       ],
       "key": "Delete"
     }
+  ],
+  "mindmap-editor:open-mindmap-linked": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "mindmap-editor:refresh-mindmap": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }
