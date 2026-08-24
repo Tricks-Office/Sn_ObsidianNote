@@ -20,11 +20,10 @@ Notes are also classified by lifecycle, not just topic:
 | Folder | Purpose |
 |---|---|
 | `0. Temp/` | Inbox for fleeting/unsorted notes. Should be triaged quickly, not left to accumulate. |
-| `1. Project/` | Active project notes, one subfolder per project (e.g. `Next 출판` — a publishing project). |
+| `1. Project/` | Active project notes, one subfolder per project (e.g. `독자생존` — a book-writing project, `출판` — publishing logistics notes). |
 | `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`). New permanent notes belong here, filed under the closest matching topic. |
 | `3. 완성/` | Finished/polished output derived from permanent notes (currently empty). |
 | `4. Archive/` | Notes retired from active use but kept for reference. |
-| `5. GPTers/` | Material tied to the GPTers community/course, including a multi-chapter sub-project (`잔소리_노래`). |
 | `6. 외부자료/` | External reference material not authored by the vault owner. |
 | `7. MindMap/` | Mind map notes, not folder-hierarchy Zettelkasten notes. Two formats/plugins coexist here, distinguished by extension: `.mindmap` (JSON tree, `obsimap` / "Simple Mindmap" plugin — see the `mindmap-json` skill for AI-driven editing) and `.md` (indented bullet outline, `mindmap-editor` / "Mind map editor" plugin, see `Template/Mindmap.md`). |
 | `Template/` | Note templates. `Zettelkasten.md` and `Mindmap.md` are the standard templates for new notes — see Note format below. |
@@ -40,6 +39,7 @@ This vault has three note formats. Each one's exact structure and conventions li
 - **제텔카스텐 (Zettelkasten)** — permanent notes under `2. 메모/`: `Template/Zettelkasten.md`
 - **Mindmap outline** — bullet-outline mind map notes under `7. MindMap/`, authored/viewed via the `mindmap-editor` ("Mind map editor") plugin: `Template/Mindmap.md`
 - **Mindmap JSON** — `.mindmap` files under `7. MindMap/`, authored/viewed via the `obsimap` ("Simple Mindmap") plugin. When creating or editing these, use the `mindmap-json` skill (`.claude/skills/mindmap-json/`) rather than hand-computing node coordinates — the plugin recalculates layout on every render, so stored x/y are irrelevant.
+- **책 쓰기 (book writing)** — a 3-stage sequence for book projects under `1. Project/<book name>/`, templates in `Template/책쓰기/`: `1. 책 기획안.md` (`type: book-proposal` — thesis, target reader, differentiation) → `2. 책 목차.md` (`type: book-outline` — 부/장 structure, links back to the proposal) → `3. 챕터 초고.md` (`type: book-chapter`, one per chapter — draft text and revision notes). This mirrors the vault owner's own PRD → SRS → implementation pattern applied to writing; a raw idea-dump stage before the proposal can still just be an ordinary Zettelkasten note. Table-of-contents/outline content should use the `book-outline` template, not plain Zettelkasten — a ToC is not a single compressed idea.
 
 ## Frontmatter rules
 

@@ -53,80 +53,20 @@
               },
               "icon": "lucide-file",
               "title": "독자생존(獨自生存or讀者生存)"
-            },
-            "group": "16c23ec188fea3c5"
+            }
           },
           {
             "id": "382839791fe10374",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/Next 출판/독자생존_질문2AI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "독자생존_질문2AI"
-            }
-          },
-          {
-            "id": "86bec49b4e57ccaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. Temp/독자생존_AI답변.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "독자생존_AI답변"
+              "title": "새 탭"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "31e37048ed802ae2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5403bef9d36c7bd4",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap-editor",
-              "state": {
-                "file": "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
-                "hideCompleted": false,
-                "showBodyText": true
-              },
-              "icon": "git-fork",
-              "title": "Mind map: 독자생존(獨自生存or讀者生存)"
-            },
-            "group": "16c23ec188fea3c5"
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -292,43 +232,43 @@
       "obsimap:Open mind map": false
     }
   },
-  "active": "86bec49b4e57ccaa",
+  "active": "382839791fe10374",
   "lastOpenFiles": [
+    "5. GPTers/나의 목표.md",
+    "4. Archive/독자생존_AI답변.md",
+    "4. Archive/독자생존_질문2AI.md",
+    "1. Project/독자생존/독자생존_책기획안.md",
+    "Template/책쓰기/3. 챕터 초고.md",
+    "Template/책쓰기/2. 책 목차.md",
+    "Template/책쓰기/1. 책 기획안.md",
+    "Template/책쓰기",
+    "1. Project/독자생존/독자생존_질문2AI.md",
+    "1. Project/독자생존/독자생존_AI답변.md",
+    "1. Project/독자생존/독자생존(獨自生存or讀者生存).md",
+    "1. Project/독자생존/독자 생존_목차.md",
+    "1. Project/독자생존",
+    "1. Project/출판/작가와 (사이트).md",
+    "1. Project/출판/출판사 천그루숲.md",
+    "1. Project/출판",
+    "0. Temp/독자 생존_목차.md",
+    "1. Project/Next 출판/독자 생존_목차.md",
+    "5. GPTers/잔소리_노래/Ch3_1.md",
+    "5. GPTers/잔소리_노래/Ch1_5.md",
+    "5. GPTers/잔소리_노래/Ch1_3.md",
+    "5. GPTers/잔소리_노래/Ch1_2.md",
+    "5. GPTers/잔소리_노래/Ch1_1.md",
     "1. Project/Next 출판/독자생존_질문2AI.md",
     "0. Temp/독자생존_AI답변.md",
     "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
     "1. Project/Next 출판/작가와 (사이트).md",
     "1. Project/Next 출판/출판사 천그루숲.md",
     "7.MindMap/MindMap Test.md",
-    "0. Temp/Dataviewer Sample.md",
-    "2. 메모/재미/지름신이 왔다 갔다.md",
-    "0. Temp/SOUL.md",
-    "2. 메모/메모/좋아하는 것 들을 연결하기.md",
-    "2. 메모/인간관계/도망과 뒷전.md",
     "Untitled.mindmap",
-    "Untitled (Outline).md",
     "Template/Simple Mindmap.mindmap",
-    "Template/Mindmap.md",
     "CLAUDE.md.tmp.5992.d48661d706a3",
-    "2. 메모/회사/탐욕의 P-PJT.md",
-    "2. 메모/DX n AI/Make도 연결이 핵심.md",
-    "2. 메모/재미/DJI는 드론에서 시작했으나, 촬영기기 회사이기도 하다.md",
-    "4. Archive/상황의 변화, 집중의 변화.md",
-    "5. GPTers/나의 목표.md",
-    "6. 외부자료/생각을 쉽게 구조화하는 8단계 접근 방법.md",
-    "Untitled (Full Note).md",
-    "2. 메모/메모/메모를 이용한 창의력 폭발의 핵심.md",
     "CLAUDE.md.tmp.27476.90fec10380bc",
     "CLAUDE.md.tmp.27476.17658d2b9cee",
-    "2. 메모/메모/독서 메모 치트키.md",
     "CLAUDE.md.tmp.27476.35c4e5adfa2b",
-    "0. Temp/마인드맵 좌표초기화 테스트.mindmap",
-    "CLAUDE.md.tmp.27476.eb43948dbafd",
-    "중심 토픽 (Outline).md",
-    "Central idea (Full Note).md",
-    "Untitled (1).mindmap",
-    "Central idea (Full Note) (1).md",
-    "2. 메모/아이디어/창의력의 비밀 Mixing.md",
-    "7.MindMap"
+    "0. Temp/마인드맵 좌표초기화 테스트.mindmap"
   ]
 }
