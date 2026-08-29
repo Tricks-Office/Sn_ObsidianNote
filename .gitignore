@@ -7,3 +7,6 @@
 # mcp-obsidian: contains the same Obsidian API key
 mcp-obsidian/nano.env
 mcp-obsidian/.env
+
+# 독자생존 출간기획서: contains real name, phone numbers, email, KakaoTalk ID
+1. Project/독자생존/독자생존_출간기획서.md
