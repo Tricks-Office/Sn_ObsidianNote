@@ -20,8 +20,8 @@ Notes are also classified by lifecycle, not just topic:
 | Folder | Purpose |
 |---|---|
 | `0. Temp/` | Inbox for fleeting/unsorted notes. Should be triaged quickly, not left to accumulate. |
-| `1. Project/` | Active project notes, one subfolder per project (e.g. `독자생존` — a book-writing project, `출판` — publishing logistics notes). |
-| `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`). New permanent notes belong here, filed under the closest matching topic. |
+| `1. Project/` | Active project notes, one subfolder per project. Book-writing projects live under `1. Project/집필/<책 이름>/`, each its own independent local-only git repo — see the 책 쓰기 entry under Note format and Git workflow below. |
+| `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`, `집필` [writing-craft notes — the craft/process of writing itself, distinct from the actual book manuscripts under `1. Project/집필/`]). New permanent notes belong here, filed under the closest matching topic. |
 | `3. 완성/` | Finished/polished output derived from permanent notes (currently empty). |
 | `4. Archive/` | Notes retired from active use but kept for reference. |
 | `6. 외부자료/` | External reference material not authored by the vault owner. |
@@ -39,7 +39,7 @@ This vault has three note formats. Each one's exact structure and conventions li
 - **제텔카스텐 (Zettelkasten)** — permanent notes under `2. 메모/`: `Template/Zettelkasten.md`
 - **Mindmap outline** — bullet-outline mind map notes under `7. MindMap/`, authored/viewed via the `mindmap-editor` ("Mind map editor") plugin: `Template/Mindmap.md`
 - **Mindmap JSON** — `.mindmap` files under `7. MindMap/`, authored/viewed via the `obsimap` ("Simple Mindmap") plugin. When creating or editing these, use the `mindmap-json` skill (`.claude/skills/mindmap-json/`) rather than hand-computing node coordinates — the plugin recalculates layout on every render, so stored x/y are irrelevant.
-- **책 쓰기 (book writing)** — a 3-stage sequence for book projects under `1. Project/<book name>/`, templates in `Template/책쓰기/`: `1. 책 기획안.md` (`type: book-proposal` — thesis, target reader, differentiation) → `2. 책 목차.md` (`type: book-outline` — 부/장 structure, links back to the proposal) → `3. 챕터 초고.md` (`type: book-chapter`, one per chapter — draft text and revision notes). This mirrors the vault owner's own PRD → SRS → implementation pattern applied to writing; a raw idea-dump stage before the proposal can still just be an ordinary Zettelkasten note. Table-of-contents/outline content should use the `book-outline` template, not plain Zettelkasten — a ToC is not a single compressed idea.
+- **책 쓰기 (book writing)** — book projects live under `1. Project/집필/<책 이름>/`, started by copying `Template/책쓰기_표준/` wholesale as the new project's root (that folder's own `CLAUDE.md`/`AGENTS.md` carry the full workflow, folder layout, and reviewer role-split — read those directly rather than duplicating them here). Five templates cover the sequence: `1. 책 기획안.md` (`type: book-proposal` — thesis, target reader, differentiation, submission tracker) → `2. 책 목차.md` (`type: book-outline` — 부/장 structure) → `3. 챕터 초고.md` (`type: book-chapter`, one per chapter) → `4. 리뷰 레포트.md` (`type: book-review-report`, one per review pass) → `5. 편집메모.md` (`type: book-edit-log` — a single consolidated revision log for the whole book, not per-chapter). This mirrors the vault owner's own PRD → SRS → implementation pattern applied to writing; a raw idea-dump stage before the proposal can still just be an ordinary Zettelkasten note. `1. Project/집필/` itself is gitignored in this repo — each book project is its own independent local-only git repository instead (no remote); see Git workflow below.
 
 ## Frontmatter rules
 
@@ -72,6 +72,7 @@ This vault is a git repository, and the owner may edit notes from other devices 
 - **Always `git pull` before starting any note-editing work.** Do this at the start of a session before reading or modifying files under the vault's note folders, so edits are never based on a stale local copy and never silently overwrite changes made elsewhere.
 - If `pull` reports local changes that would be overwritten, stop and surface them to the user rather than discarding or force-pulling.
 - Do not `commit` or `push` unless the user explicitly asks — leave staging/committing decisions to them.
+- Book-writing project folders under `1. Project/집필/` are gitignored here and each keeps its own independent local-only git repository (no remote). `git status`/`add`/`commit` on files under there operate on that nested repo, not this one, unless the user explicitly asks otherwise.
 
 ## Working in `mcp-obsidian/`
 
