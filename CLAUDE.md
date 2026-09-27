@@ -20,7 +20,7 @@ Notes are also classified by lifecycle, not just topic:
 | Folder | Purpose |
 |---|---|
 | `0. Temp/` | Inbox for fleeting/unsorted notes. Should be triaged quickly, not left to accumulate. |
-| `1. Project/` | Active project notes, one subfolder per project. Book-writing projects live under `1. Project/집필/<책 이름>/`, each its own independent local-only git repo — see the 책 쓰기 entry under Note format and Git workflow below. |
+| `1. Project/` | Active project notes, one subfolder per project. Book-writing projects live under `1. Project/집필/<책 이름>/`, each its own independent local-only git repo — see the 책 쓰기 entry under Note format and Git workflow below. Pre-project book concepts (소재모음·기획안 before a book becomes a full project) live under `1. Project/집필컨셉/<책 이름>/`, which is gitignored and kept local-only (no nested repo). |
 | `2. 메모/` | The core Zettelkasten — permanent notes, organized into topic subfolders (`DX n AI`, `경제경영`, `공부`, `메모` [meta notes about note-taking itself], `성공`, `신체`, `아이디어`, `인간관계`, `자아성찰`, `재미`, `집필` [writing-craft notes — the craft/process of writing itself, distinct from the actual book manuscripts under `1. Project/집필/`]). New permanent notes belong here, filed under the closest matching topic. |
 | `3. 완성/` | Finished/polished output derived from permanent notes (currently empty). |
 | `4. Archive/` | Notes retired from active use but kept for reference. |
@@ -75,6 +75,7 @@ This vault is a git repository, and the owner may edit notes from other devices 
 - If `pull` reports local changes that would be overwritten, stop and surface them to the user rather than discarding or force-pulling.
 - Do not `commit` or `push` unless the user explicitly asks — leave staging/committing decisions to them.
 - Book-writing project folders under `1. Project/집필/` are gitignored here and each keeps its own independent local-only git repository (no remote). `git status`/`add`/`commit` on files under there operate on that nested repo, not this one, unless the user explicitly asks otherwise.
+- Book-concept folders under `1. Project/집필컨셉/` are also gitignored here, but have no nested repo — they are simply local-only and never committed or pushed. (Files there were tracked before 2026-09-27, so older commits in this repo's history still contain them; that history was intentionally left as-is.)
 
 ## Working in `mcp-obsidian/`
 
