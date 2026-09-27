@@ -12,3 +12,9 @@ mcp-obsidian/.env
 # 원고·투고 자료(개인정보 포함)를 이 vault의 GitHub 저장소에는 올리지 않음 —
 # Template/책쓰기_표준/CLAUDE.md의 "이중 git 저장소 구조" 절 참고.
 1. Project/집필/
+
+# 1. Project/집필컨셉/ 도 원고·기획 자료라 GitHub에 올리지 않음 (로컬에서만 관리)
+1. Project/집필컨셉/
+
+# Python bytecode cache (skills scripts)
+__pycache__/

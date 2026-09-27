@@ -1,0 +1,28 @@
+---
+write date: 2026-09-06 10:43
+edit date: 2026-09-06 10:44
+tags: []
+type: mindmap
+links: []
+---
+
+```json
+{
+  "root": {
+    "id": "root",
+    "text": "메인 아이디어",
+    "children": [
+      {
+        "id": "n1",
+        "text": "중간 아이디어 1",
+        "parent": "root",
+        "children": [
+          { "id": "n1-1", "text": "작은 아이디어1", "parent": "n1", "children": [] },
+          { "id": "n1-2", "text": "작은 아이디어2", "parent": "n1", "children": [] }
+        ]
+      },
+      { "id": "n2", "text": "중간 아이디어 2", "parent": "root", "children": [] }
+    ]
+  }
+}
+```

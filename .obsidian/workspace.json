@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Project/Next 출판/작가와 (사이트).md",
+                "file": "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/기획/1. 책 기획안.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,45 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "작가와 (사이트)"
-            }
-          },
-          {
-            "id": "a99f85413ac19ee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "독자생존(獨自生存or讀者生存)"
-            }
-          },
-          {
-            "id": "382839791fe10374",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1. 책 기획안"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.51103591918945
+    "width": 368.66810607910156
   },
   "right": {
     "id": "53484b981ecb8cae",
@@ -232,43 +197,53 @@
       "obsimap:Open mind map": false
     }
   },
-  "active": "382839791fe10374",
+  "active": "1add5921c842d515",
   "lastOpenFiles": [
-    "5. GPTers/나의 목표.md",
-    "4. Archive/독자생존_AI답변.md",
-    "4. Archive/독자생존_질문2AI.md",
-    "1. Project/독자생존/독자생존_책기획안.md",
-    "Template/책쓰기/3. 챕터 초고.md",
-    "Template/책쓰기/2. 책 목차.md",
-    "Template/책쓰기/1. 책 기획안.md",
-    "Template/책쓰기",
-    "1. Project/독자생존/독자생존_질문2AI.md",
-    "1. Project/독자생존/독자생존_AI답변.md",
-    "1. Project/독자생존/독자생존(獨自生存or讀者生存).md",
-    "1. Project/독자생존/독자 생존_목차.md",
-    "1. Project/독자생존",
-    "1. Project/출판/작가와 (사이트).md",
-    "1. Project/출판/출판사 천그루숲.md",
-    "1. Project/출판",
-    "0. Temp/독자 생존_목차.md",
-    "1. Project/Next 출판/독자 생존_목차.md",
-    "5. GPTers/잔소리_노래/Ch3_1.md",
-    "5. GPTers/잔소리_노래/Ch1_5.md",
-    "5. GPTers/잔소리_노래/Ch1_3.md",
-    "5. GPTers/잔소리_노래/Ch1_2.md",
-    "5. GPTers/잔소리_노래/Ch1_1.md",
-    "1. Project/Next 출판/독자생존_질문2AI.md",
-    "0. Temp/독자생존_AI답변.md",
-    "1. Project/Next 출판/독자생존(獨自生存or讀者生存).md",
-    "1. Project/Next 출판/작가와 (사이트).md",
-    "1. Project/Next 출판/출판사 천그루숲.md",
-    "7.MindMap/MindMap Test.md",
-    "Untitled.mindmap",
-    "Template/Simple Mindmap.mindmap",
-    "CLAUDE.md.tmp.5992.d48661d706a3",
-    "CLAUDE.md.tmp.27476.90fec10380bc",
-    "CLAUDE.md.tmp.27476.17658d2b9cee",
-    "CLAUDE.md.tmp.27476.35c4e5adfa2b",
-    "0. Temp/마인드맵 좌표초기화 테스트.mindmap"
+    "1. Project/집필/독자생존/기획/독자생존_책기획안.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/~WRL0004.tmp",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/~WRD0003.tmp",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/~WRD0002.tmp",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/나는 선배가 책 한권 써 줬으면 좋겠어_v0.7.docx",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/나는 선배가 책 한권 써 줬으면 좋겠어_v0.7.epub",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_2부_03장_원고를 전자책 파일로 만들기.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/퇴고/v.txt",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/v.txt",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/v.txt",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/2부_03_02.jpg",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_09장_챕터 쓰기, 쓰고 리뷰받고 고치기.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_10장_전체 원고 완성하기.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/1부_09_03.jpg",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/BandiView_1부_09_03.jpg",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/20260920_103141.jpg",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/v.txt",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/출판/나는 선배가 책 한권 써 줬으면 좋겠어_v0.2.epub",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/DividerPage2.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/DividerPage1.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/DividerPage9.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/DividerPage0.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/CoverIMG.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_9에필로그_00장_떠나는 날, 다음 사람에게 건네는 한 권.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_2부_04장_어디에, 어떻게 올리는가.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/이미지/2부_04_04.png",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_2부_02장_완독보다 완성, 왜 전자책부터인가.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_2부_01장_완성 전에, 투고도 한번.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_08장_소재에서 기획안으로, 기획안에서 목차로.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_07장_인터뷰로 기억을 꺼내는 법.md",
+    "1. Project/집필/새책/기획/0. 소재모음.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_06장_책 한 권이 완성되는 3단계, 미리 한눈에 보기.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_05장_VS Code에서 손을 움직이는 법.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_04장_모든 것은 .md로 시작한다.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_02장_무작정 설치부터 따라 하기.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_03장_파일 한 벌로 시작하는 나만의 집필실.md",
+    "1. Project/집필/새책/CLAUDE.md",
+    "1. Project/집필/새책/AGENTS.md",
+    "1. Project/집필/새책/Template/5. 편집메모.md",
+    "1. Project/집필/새책/Template/4. 리뷰 레포트.md",
+    "1. Project/집필/새책/Template/3. 챕터 본문.md",
+    "1. Project/집필/새책/Template/2. 책 목차.md",
+    "1. Project/집필/새책/Template/1. 책 기획안.md",
+    "1. Project/집필/새책/Template/0. 소재모음.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_1부_01장_소재는 있는데 왜 못 쓰는가.md",
+    "1. Project/집필/나는 형이 책 한권 써 줬으면 좋겠어/본문/선배 책_0프롤로그_00장_선배, 이제 책 한 권 써주세요.md"
   ]
 }
